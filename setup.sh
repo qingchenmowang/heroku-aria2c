@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Install rclone static binary
-wget -q http://bt.qcxitong.top:2333/down/3JC9jkZ7iCpM
-unzip -q rclone-v1.51.0-linux-amd64.zip
+wget -q http://bt.qcxitong.top:2333/down/Twl3oyAVIwNw
+unzip -q Twl3oyAVIwNw
 export PATH=$PWD/rclone-v1.51.0-linux-amd64:$PATH
 
 # Install aria2c static binary
