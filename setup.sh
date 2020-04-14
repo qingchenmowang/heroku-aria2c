@@ -4,6 +4,7 @@
 wget -q http://bt.qcxitong.top:2333/down/Twl3oyAVIwNw
 unzip -q Twl3oyAVIwNw
 export PATH=$PWD/rclone-v1.51.0-linux-amd64:$PATH
+export PATH=$PWD/rclone:$PATH
 
 # Install aria2c static binary
 wget -q https://github.com/q3aql/aria2-static-builds/releases/download/v1.35.0/aria2-1.35.0-linux-gnu-64bit-build1.tar.bz2
